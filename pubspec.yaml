@@ -66,6 +66,7 @@ flutter:
     - assets/images/Air_Terjun_Jumog.jpg
     - assets/images/kebun_teh_kemuning.jpg
     - assets/images/mongkrang.jpg
+    - assets/images/welcome_page_bg.jpg
     - assets/images/
 
   # An image asset can refer to one or more resolution-specific "variants", see
