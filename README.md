@@ -43,4 +43,4 @@ Welcome Page | Home Page | Detail Page |
 - Tidak ada
 
 ## Kontak
-Jika anda memiliki pertanyaan atau memiliki permasalahan dalam hal menjalankan atau yang lainnya, silahkan hubungi saya melalui email di [*Email*](danaperdanaputra32@gmail.com) atau di [LinkedIn](www.linkedin.com/in/siswadi-perdana-putra)
+Jika anda memiliki pertanyaan atau memiliki permasalahan dalam hal menjalankan atau yang lainnya, silahkan hubungi saya melalui email di [*Email*](danaperdanaputra32@gmail.com) atau di [LinkedIn](https://www.linkedin.com/in/siswadi-perdana-putra-0b670a22b/)
