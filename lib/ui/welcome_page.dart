@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:travel_app/ui/homepage.dart';
 
 class WelcomePage extends StatelessWidget {
   const WelcomePage({super.key});
@@ -115,14 +116,24 @@ class WelcomePage extends StatelessWidget {
                           Radius.circular(17),
                         ),
                       ),
-                      child: Center(
-                        child: Text(
-                          'Get Started Your Journey',
-                          style: TextStyle(
-                            fontWeight: FontWeight.w400,
-                            fontSize: 16,
-                            decoration: TextDecoration.none,
-                            color: Color(0xFFffffff).withOpacity(1),
+                      child: InkWell(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const HomePage(),
+                            ),
+                          );
+                        },
+                        child: Center(
+                          child: Text(
+                            'Get Started Your Journey',
+                            style: TextStyle(
+                              fontWeight: FontWeight.w400,
+                              fontSize: 16,
+                              decoration: TextDecoration.none,
+                              color: Color(0xFFffffff).withOpacity(1),
+                            ),
                           ),
                         ),
                       ),
