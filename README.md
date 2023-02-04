@@ -28,7 +28,7 @@ __*Jika masih bingung silahkan kunjungi website ini [cara menjalankan projek flu
 ## Hasil Gambar
 Welcome Page | Home Page | Detail Page |
 :----------:|:----------:|:-------------:|
-<img src="demo/aplikasi/welcome_page.png"/> | <img src="demo/aplikasi/homepage.png"/> | <img src="demo/aplikasi/detail_page.png"/> 
+<img src="demo/Aplikasi/welcome_page.png"/> | <img src="demo/Aplikasi/homepage.png"/> | <img src="demo/Aplikasi/detail_page.png"/> 
 
 ## Fitur
 - Welcome Page
