@@ -20,44 +20,7 @@ class _DetailPageState extends State<DetailPage> {
           children: <Widget>[
             SafeArea(
               top: true,
-              child: Padding(
-                padding: const EdgeInsets.only(left: 10),
-                child: SizedBox(
-                  width: double.maxFinite,
-                  height: 55,
-                  child: Row(
-                    children: <Widget>[
-                      IconButton(
-                        icon: Icon(
-                          Icons.arrow_back,
-                          color: Color(0xFF000000).withOpacity(1),
-                          size: 24,
-                        ),
-                        onPressed: () {
-                          Navigator.pop(context);
-                        },
-                      ),
-                      // Padding(
-                      //   padding: const EdgeInsets.only(left: 120),
-                      // ),
-                      Expanded(
-                        child: Align(
-                          alignment: Alignment.center,
-                          child: Text(
-                            'Detail',
-                            style: TextStyle(
-                              fontWeight: FontWeight.w600,
-                              fontSize: 25,
-                              decoration: TextDecoration.none,
-                              color: Color(0xFF000000).withOpacity(1),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
+              child: appBarWidget(context),
             ),
             SizedBox(
               width: double.maxFinite,
@@ -367,6 +330,35 @@ class _DetailPageState extends State<DetailPage> {
               ),
             ),
           ],
+        ),
+      ),
+    );
+  }
+
+  PreferredSizeWidget appBarWidget(BuildContext context) {
+    return AppBar(
+      title: const Text(
+        "Settings",
+        style: TextStyle(
+          fontSize: 32,
+          fontWeight: FontWeight.w700,
+        ),
+      ),
+      centerTitle: true,
+      leading: Container(
+        margin: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
+        decoration: BoxDecoration(
+          color: const Color(0xFF4285F4),
+          borderRadius: BorderRadius.circular(15),
+        ),
+        child: IconButton(
+          onPressed: () {
+            Navigator.pop(context);
+          },
+          icon: const Icon(
+            Icons.arrow_back_ios_new_rounded,
+            color: Colors.white,
+          ),
         ),
       ),
     );
